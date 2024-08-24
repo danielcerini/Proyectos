@@ -21,14 +21,7 @@ def paquete(k):
         figu=random.randint(0,N-1)
         figus.append(figu)
     return (figus)
-##### DISTRIBUCION POISSON DE FIGURITAS EN CADA PAQUETE
-def paquetepoi(k):
-    figus=[]
-    lamda=N/4
-    for i in range(k):
-        figu=random.randint(0,N-1)
-        figus.append(figu)
-    return (figus)
+
 
 def albumlleno(album):
     suma=sum(album)
